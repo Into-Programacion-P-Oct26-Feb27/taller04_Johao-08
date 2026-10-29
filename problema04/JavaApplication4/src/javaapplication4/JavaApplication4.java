@@ -55,7 +55,21 @@ public class JavaApplication4 {
         
         total = costoBase+costo15;
         
-        System.out.printf(" reporte: \n Nombre cliente: %s\n");
+        System.out.printf(" Reporte: \n Nombre cliente: %s\n Valores iniciales: "
+                + "\n "
+                + "CPU: $%.2f\n Teclado: $%.2f\n Raton: $%.2f\n Pantalla: $%.2f "
+                + "\n\n"
+                + "Costo base: $%.2f\n Costo adicional del 15: $%.2f\n "
+                + "Costo final:"
+                + "$%.2f\n", 
+                nombre,
+                cpu,
+                teclado,
+                raton,
+                pantalla,
+                costoBase,
+                costo15,
+                total);
         
     }
                 
